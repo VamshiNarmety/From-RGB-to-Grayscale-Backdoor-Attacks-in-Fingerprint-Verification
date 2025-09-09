@@ -12,7 +12,7 @@ Backdoor attacks have become a significant concern in deep learning, as they all
 Make sure to place the correct paths in the files wherever required and also for the generator in the PFF.
 - `clean_training.py`: trains the Siamese CNN on fingerprints without backdoors.
 - `Wanet_train_test.py`: trains and evaluates model with WaNet perturbations.
-- `SIG_train_test.py`: trains and evaluates model with SIG triggers.
+- `sig_train_test.py`: trains and evaluates model with SIG triggers.
 - `pff_train_test.py`: trains and evaluates model with Poisoned Forgery Face (PFF, trigger generator with convolving-based perturbations) attack using the pretrained generator (`generator.pth`).
 - `lfba_train_test.py`: trains and evaluates model with low frequency backdoor attack.
   
